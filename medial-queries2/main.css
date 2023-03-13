@@ -1,3 +1,70 @@
+* {
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background: papayawhip;
+  text-align: center;
+  font-family:'Franklin Gothic Medium';
+}
+
+.a {
+  background-color: blue;
+  border-style: solid;
+  border-spacing: 50px;
+  justify-content: center;
+  padding: 100px;
+  display: flex;
+}
+
+.b {
+  background-color: red;
+  border-style: solid;
+  border-spacing: 50px;
+  justify-content: center;
+  padding: 100px;
+  display: flex;
+}
+
+.c {
+  background-color: green;
+  border-style: solid;
+  border-spacing: 50px;
+  justify-content: center;
+  padding: 100px;
+  display: flex;
+}
+
+.d {
+  background-color: rgb(224, 227, 28);
+  border-style: solid;
+  border-spacing: 50px;
+  justify-content: center;
+  padding: 100px;
+  display: flex;
+}
+
+.e {
+  background-color: rgb(107, 4, 105);
+  border-style: solid;
+  border-spacing: 50px;
+  justify-content: center;
+  padding: 100px;
+  display: flex;
+}
+
+.f {
+  background-color: rgb(114, 215, 208);
+  border-style: solid;
+  border-spacing: 50px;
+  padding: 100px;
+  display: flex;
+  width: 24%;
+  justify-content: flex-end;
+  flex-direction: column;
 }
