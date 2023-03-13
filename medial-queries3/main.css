@@ -1,9 +1,9 @@
 body {
-  background: peachpuff;
+  background: rgb(0, 0, 0);
 }
 
 * {
-  border: 1px solid teal;
+  border: 1px solid rgb(220, 227, 32);
   box-sizing: border-box;
 }
 
@@ -12,12 +12,14 @@ body {
   min-height: 100vh;
   justify-content: stretch;
   flex-wrap: wrap;
+  background-color: rgb(153, 96, 163);
 }
 
 header {
   width: 100%;
   height: 10em;
   margin-bottom: 1em;
+  background: gray;
 }
 
 .wrapper {
@@ -33,6 +35,7 @@ aside {
   flex-wrap: wrap;
   justify-content: space-between;
   flex-grow: 1;
+  background-color: rgb(158, 96, 96);
 }
 
 aside > div {
@@ -43,6 +46,7 @@ aside > div {
 
 main {
   flex-grow: 4;
+  background: gray;
 }
 
 

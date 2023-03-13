@@ -1,9 +1,9 @@
 body {
-  background: papayawhip;
+  background: rgb(1, 1, 1);
 }
 
 * {
-  border: 1px solid teal;
+  border: 1px solid rgb(228, 244, 7);
   box-sizing: border-box;
 }
 
@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  background-color: rgb(175, 92, 92);
 }
 
 .wrapper {
@@ -22,12 +23,14 @@ body {
   justify-content: space-between;
   align-items: center;
   min-height: 70vh;
+  background-color: rgb(44, 73, 44);
 }
 
 header, footer, aside, .wrapper  {
   flex-grow: 1;
   margin: .5em;
   max-height: 10vh;
+  background-color: rgb(64, 64, 66);
 }
 
 aside  {
@@ -35,19 +38,19 @@ aside  {
   justify-content: space-between;
   width: 90%;
   min-height: 20vh;
-
+  background-color: grey;
 }
 
 aside > div {
   flex-grow: 10;
   margin: .5em;
-  /* min-width: 20vh; */
 }
 
 main {
   width: 90%;
   flex-grow: 3;
   margin: .5em;
+  background-color: grey;
 }
 
 

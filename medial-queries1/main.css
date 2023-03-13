@@ -1,9 +1,9 @@
 body {
-  background: blanchedalmond;
+  background: rgb(5, 5, 5);
 }
 
 * {
-  border: 1px solid teal;
+  border: 1px solid rgb(226, 245, 16);
 }
 
 .container {
@@ -11,6 +11,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  background-color: grey;
 }
 
 header, footer  {
@@ -32,5 +33,6 @@ main {
   }
   main, footer, header {
     margin: 1em;
+    background-color: rgb(185, 107, 107);
   }
 }
